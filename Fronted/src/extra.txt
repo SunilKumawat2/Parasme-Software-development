@@ -1,0 +1,149 @@
+     <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Android"
+                  >
+                    <img
+                      src={AndroidIcon}
+                      className="img-fluid"
+                      alt="AndroidIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Java"
+                  >
+                    <img src={javaIcon} className="img-fluid" alt="javaIcon" />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="PHP"
+                  >
+                    <img src={phpIcon} className="img-fluid" alt="phpIcon" />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Node Js"
+                  >
+                    <img src={nodeIcon} className="img-fluid" alt="nodeIcon" />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Magento"
+                  >
+                    <img
+                      src={magentoIcon}
+                      className="img-fluid"
+                      alt="magentoIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Salesforce"
+                  >
+                    <img
+                      src={salesforceIcon}
+                      className="img-fluid"
+                      alt="salesforceIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Angular"
+                  >
+                    <img
+                      src={angularIcon}
+                      className="img-fluid"
+                      alt="angularIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Shopify"
+                  >
+                    <img
+                      src={ShopifyIcon}
+                      className="img-fluid"
+                      alt="ShopifyIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Flutter"
+                  >
+                    <img
+                      src={flutterIcon}
+                      className="img-fluid"
+                      alt="flutterIcon"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Vue"
+                  >
+                    <img src={vueIcon} className="img-fluid" alt="vueIcon" />
+                  </button>
+                </div>
+              </div>
+              <div className="col-md-3 col-6">
+                <div className="technology-box">
+                  <button
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="React Js"
+                  >
+                    <img
+                      src={reactIcon}
+                      className="img-fluid"
+                      alt="reactIcon"
+                    />
+                  </button>
+                </div>
+              </div>

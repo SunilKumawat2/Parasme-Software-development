@@ -1,0 +1,45 @@
+
+import axios from "axios";
+import { API_BASE_URL } from "../../config/ApiConfig";
+  const [categoryList,setcategoryList] = useState({
+      categories:[],
+      settings:[]
+    });
+    useEffect(()=>{
+      GetCategoryList();
+    },[])
+    const GetCategoryList = ()=>{
+      axios.get(`${API_BASE_URL}/master-data`).then((response)=>{
+        setcategoryList(response.data.data)
+      }).catch((error)=>{
+        console.log(error)
+      })
+    }
+    console.log(categoryList)
+
+      {
+        categoryList.categories.map((result)=>{
+          return(
+            <>
+            <p>{result.title}</p>
+            </>
+          )
+        })
+      }
+
+
+      <--------------------- Awards Update----------->
+          // This methods for the Update the Slider 
+    // const EditAward = async (_id) => {
+    //     const formData = new FormData();
+    //     formData.append("images", images);
+    //     formData.append("heading", heading);
+    //     formData.append("paragraph", paragraph);
+    //     axios.put(`http://localhost:4000/editaward/${_id}`, formData).then((response) => {
+    //         console.log(response.data);
+    //         GetImagesAwards();
+    //         handleCloseEdit();
+    //     }).catch((error) => {
+    //         console.log(error)
+    //     })
+    // }

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AdminLoginPage{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    margin: 100px auto;
+    width: 65%;
+    height: 50vh;
+}
+.AdminLoginPageLeft{
+    width: 50%;
+    padding: 3px;
+}
+.AdminLoginPageLeftHeading{
+    background-color: rgb(228, 79, 79);
+    color: white;
+}
+.AdminLoginPageRight{
+    width: 50%;
+}
+.AdminLoginPageRight img{
+    margin-top: 40px;
+}
+.AdminLoginPageButton{
+    margin: 30px auto;
+    width: 80%;
+}

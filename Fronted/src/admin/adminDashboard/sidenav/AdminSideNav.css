@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AdminLogoutButton{
+    position: absolute;
+    right: 3%;
+    background-color: rgb(246, 247, 248);
+    width: 40px;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+.AdminLogoutButton:hover{
+    background-color: rgb(232, 233, 235);
+}
+
+.MuiListItem-root{
+    border-bottom: 1px solid #dfcece;
+        background-color: rgb(245, 245, 245);
+}
+.MuiPaper-root .MuiPaper-elevation .MuiPaper-elevation0 .MuiD {
+    background-color: #f7f6f6;
+}

@@ -1,0 +1,68 @@
+.services-footer-menu {background-image: url(../images/work-team.jpg); background-repeat: no-repeat; background-size: cover;
+  padding: 80px 100px;
+  float: left;
+  width: 100%;
+}
+.services-footer-menu .list:first-child {
+  width: 26%;
+}
+.services-footer-menu .list:nth-child(2) {
+  width: 23%;
+}
+.services-footer-menu .list {
+  width: 17%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+.services-footer-menu ul li.header {
+  font-size: 20px;
+  color: #64676F;
+  font-family: gilroy-extrabold, Helvetica, Arial, sans-serif;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+.services-footer-menu ul li {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: gilroy-extrabold, Helvetica, Arial, sans-serif;
+  margin: 0 0 6px 0;
+  padding: 0 10px 0 0;
+}
+
+.services-footer-menu  ul {
+  margin: 0 0 30px 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) { .services-footer-menu {
+  display: block;
+  padding: 40px 40px;
+}
+
+.services-footer-menu .list {
+  width: 100% !important;
+  text-align: center;
+}
+.topheader-fixed.fixed {
+  box-shadow: 0 0 16px 1px #0003;
+  width: 100%;
+  display: none;
+}
+ul.custom-navigation.carousel.custome-carousel.projects-carousel.add-fade-from-bottom.fade-from-bottom {
+  margin: 0;
+}
+.custome-carousel li {
+  height: auto !important;
+}
+ul.custom-navigation.carousel.custome-carousel.projects-carousel.add-fade-from-bottom.fade-from-bottom {
+  margin-bottom: 0;
+}
+section.work.main-section.bg-black-box.position-relative.mt-1 {
+  padding-bottom: 0;
+}
+.carousel-navigation.carouseltopnav {
+  position: absolute;
+  right: 40px;
+  top: auto;
+}
+}
